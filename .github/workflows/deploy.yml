@@ -11,6 +11,7 @@ jobs:
     - name: Set up JDK 17
       uses: actions/setup-java@v3
       with:
+        distribution: 'temurin'
         java-version: '17'
     - name: Maven - Clean Job
       run: mvn -B clean --file pom.xml
@@ -23,6 +24,7 @@ jobs:
     - name: Set up JDK 17
       uses: actions/setup-java@v3
       with:
+        distribution: 'temurin'
         java-version: '17'
     - name: Maven - Compile Job
       run: mvn -B compile --file pom.xml
