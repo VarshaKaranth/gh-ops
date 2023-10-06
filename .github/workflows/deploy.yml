@@ -25,5 +25,5 @@ jobs:
       with:
         java-version: '17'
     - name: Maven - Compile Job
-        run: mvn -B compile --file pom.xml
+      run: mvn -B compile --file pom.xml
 
