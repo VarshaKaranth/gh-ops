@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>gitopscalculator</artifactId>
+	<artifactId>gh-ops</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -41,7 +41,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>gitopscalculator</finalName>
+		<finalName>gh-ops</finalName>
 
 		<plugins>
 
@@ -123,8 +123,8 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>GitHub NidaAP Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/nidaap/gitopscalculator</url>
+			<name>GitHub Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/VarshaKaranth/gh-ops</url>
 		</repository>
 	</distributionManagement>
 </project>
