@@ -19,7 +19,7 @@
 		<maven.compiler.target>1.7</maven.compiler.target>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<sonar.projectKey>varshakaranth-1</sonar.projectKey>
+		<sonar.projectKey>VarshaKaranth_gh-ops</sonar.projectKey>
 		<sonar.organization>VarshaKaranth</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
