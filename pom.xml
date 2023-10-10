@@ -20,7 +20,7 @@
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.projectKey>VarshaKaranth_gh-ops</sonar.projectKey>
-		<sonar.organization>VarshaKaranth</sonar.organization>
+		<sonar.organization>varshakaranth</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
 	</properties>

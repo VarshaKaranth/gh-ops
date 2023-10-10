@@ -1,7 +1,10 @@
 name: Build
 on:
   push: 
-    branches: [master]
+    branches: 
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   Setup:
@@ -57,4 +60,4 @@ jobs:
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+      run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=VarshaKaranth_gh-ops
